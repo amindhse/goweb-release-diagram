@@ -4,7 +4,7 @@ import { computed, ref } from "vue";
 
 const markwhenStore = useMarkwhenStore();
 
-const showing = ref(true);
+const showing = ref(false);
 
 const markwhen = computed({
   get() {
@@ -20,7 +20,7 @@ const toggle = () => {
 };
 </script>
 
-<template>
+<!--<template>
   <div class="shadow flex flex-col absolute bottom-12 left-12 z-40">
     <div class="font-bold text-sm ml-auto dark:bg-slate-900 bg-white px-1">
       <button class="flex items-center justify-center p-1" @click="toggle">
@@ -57,7 +57,7 @@ const toggle = () => {
       v-model="markwhen"
     />
   </div>
-</template>
+</template>-->
 
 <style scoped>
 textarea {
