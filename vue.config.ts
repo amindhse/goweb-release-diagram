@@ -1,4 +1,3 @@
 module.exports = {
-  publicPath:
-    process.env.NODE_ENV === "production" ? "/goweb-release-diagram/" : "/",
-}
+    publicPath: process.env.NODE_ENV === "production" ? "/REPO_NAME/" : "/",
+};
